@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cabecario" id="container1">
+        <h1>Meu Projeto</h1>
+        <br>
+        <menu>
+            <button id="tema-claro" onclick="alternarTema('claro')">Tema Claro</button>
+            <button id="tema-escuro" onclick="alternarTema('escuro')">Tema Escuro</button>
+            <button id="sem-css" onclick="removerTema()">Sem CSS</button>
+            <button id="caixa-texto-btn" onclick="mostrarCaixaTexto()">Sobre</button>
+        </menu>
+    </div>
+    <div id="caixa-texto" style="display: none;">
+        <p>Este projeto tenta modificar o estilo da pagina utilizando css e javascript</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
